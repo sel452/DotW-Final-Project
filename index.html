@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Drop-Out Index</title>
+		<style>
+/* 
+			body{
+				background-image: url("images/cover-image.png");
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+ */
+			
+			#bg{
+			 position: absolute;
+			 min-width: 100%;
+			 left: 0px;
+			 top: 0px;
+			}
+ 
+			.frame{
+				position: relative;
+				left: 460px;
+				top: 150px;
+			}
+
+ 
+			a > img:hover {
+				transition-property: transform;
+				transition-duration: 0.5s;
+				transform: scale(1.1, 1.1);
+			}
+
+			#f1 {
+				position: relative;
+				display: inline;
+				width: 250px;
+				height: 332px;
+				overflow: hidden;
+			}
+			
+			#f2 {
+				display: inline;
+				width: 275px;
+				height: 367px;
+				overflow: hidden;
+			}
+			
+			#f3 {
+				display: inline;
+				width: 273px;
+				height: 466px;
+				overflow: hidden;
+			}
+			
+			.opaque{
+			opacity: 1;
+			transition: opacity 0.35s;
+			}
+
+			.semitransparent{
+			opacity: 0.65;
+			transition: opacity 0.35s;
+			}
+
+ 
+		</style>
+	</head>
+
+	<body>
+		<img id="bg" src="images/cover-image.png">
+		<div class="frame">
+		<div class="opaque" id="f1">
+		<a href="fuel.html"><img id="f1" src="images/fuel/fuel31.png"></a>
+		</div>
+		<div class="opaque" id="f2">
+		<a href="blood.html"><img id="b1" src="images/blood/blood23.png"></a>
+		</div>
+		<div class="opaque" id="f3">
+		<a href="meat.html"><img id="m1" src="images/meat/meat23.png"></a>
+		</div>
+		</div>
+		<script src = "js/index-js.js"></script>
+	</body>
+</html>
